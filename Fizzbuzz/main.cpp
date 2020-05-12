@@ -8,8 +8,24 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
+using namespace std;
+
+int main() {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    int fizz = 3, buzz = 7;
+    for (int i = 1; i <= 100; i++)
+    {
+        if (i%fizz == 0)    //if remainder of i/fizz is equal to zero
+        cout << "fizz";
+        
+        if (i%buzz == 0)    //if remainder of i/buzz is equal to zero
+        {
+        cout << "buzz";
+        }
+        if (i%fizz != 0 && i%buzz != 0) cout << i;  //if remainder of i/fizz and i/buzz is not zero
+        cout << endl;   //new line
+    }
+        
     return 0;
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3930741F246DF30800FC12CA /* fizzbuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3930741D246DF30800FC12CA /* fizzbuzz.cpp */; };
 		39A62D40246A2FA100FC12CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39A62D3F246A2FA100FC12CA /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3930741D246DF30800FC12CA /* fizzbuzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fizzbuzz.cpp; sourceTree = "<group>"; };
+		3930741E246DF30800FC12CA /* fizzbuzz.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = fizzbuzz.h; sourceTree = "<group>"; };
 		39A62D3C246A2FA100FC12CA /* Fizzbuzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fizzbuzz; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A62D3F246A2FA100FC12CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				39A62D3F246A2FA100FC12CA /* main.cpp */,
+				3930741D246DF30800FC12CA /* fizzbuzz.cpp */,
+				3930741E246DF30800FC12CA /* fizzbuzz.h */,
 			);
 			path = Fizzbuzz;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A62D40246A2FA100FC12CA /* main.cpp in Sources */,
+				3930741F246DF30800FC12CA /* fizzbuzz.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

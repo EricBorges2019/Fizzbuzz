@@ -36,7 +36,6 @@ void fizzbuzz(int end, int fizz, int buzz)
     
     for (int i = 1; i <= end; i++)
     {
-        
         if (LOG)
         {
             startlog;
@@ -56,7 +55,6 @@ void fizzbuzz(int end, int fizz, int buzz)
         if (i%fizz != 0 && i%buzz != 0) cout << i;  //if remainder of i/fizz and i/buzz is not zero
         cout << endl;   //new line
         log << endl;
-        
     }
     log.close();
 }

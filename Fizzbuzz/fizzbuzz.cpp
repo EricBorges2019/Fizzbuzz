@@ -13,7 +13,8 @@
 
 
 
-const bool LOG = true;
+bool LOG = true;
+char logYN = 'n';
 
 using std::cout;
 using std::endl;
@@ -27,6 +28,10 @@ ofstream log ("fizzbuzz.log", ios::app);
 
 void fizzbuzz(int end, int fizz, int buzz)
 {
+    cout << "\nWould you like to log this run to fizzbuzz.log? ";
+    std::cin >> logYN;
+    if (logYN == 'y' || logYN == 'Y') LOG = true;
+    
     if (LOG)
     {
         startlog;

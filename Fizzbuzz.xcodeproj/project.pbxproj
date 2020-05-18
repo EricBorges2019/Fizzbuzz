@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		3930741D246DF30800FC12CA /* fizzbuzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fizzbuzz.cpp; sourceTree = "<group>"; };
 		3930741E246DF30800FC12CA /* fizzbuzz.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = fizzbuzz.h; sourceTree = "<group>"; };
+		398A14302472D47500FC12CA /* fizzbuzz.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fizzbuzz.log; path = "../../../Library/Developer/Xcode/DerivedData/Fizzbuzz-ctzscthmpyysuugamfunheoudgpn/Build/Products/Debug/fizzbuzz.log"; sourceTree = "<group>"; };
 		39A62D3C246A2FA100FC12CA /* Fizzbuzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fizzbuzz; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A62D3F246A2FA100FC12CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +47,7 @@
 			children = (
 				39A62D3E246A2FA100FC12CA /* Fizzbuzz */,
 				39A62D3D246A2FA100FC12CA /* Products */,
+				398A14302472D47500FC12CA /* fizzbuzz.log */,
 			);
 			sourceTree = "<group>";
 		};
